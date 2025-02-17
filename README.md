@@ -1,4 +1,4 @@
-# MIGE
+# MIGE: A Unified Framework for Multimodal Instruction-Based Image Generation and Editing
 Implementation code of the paper **MIGE: A Unified Framework for Multimodal Instruction-Based Image Generation and Editing**
 ![Demonstrating the comprehensive capabilities of MIGE.](showcases/show_new.jpg)
 
@@ -72,19 +72,8 @@ We provide an `accelerate_config.yaml` file for single-node multi-GPU/multi-node
 ```bash
 sh train_scripts/train_mige.sh
 ```
-Here's the updated version with your new sentence:
 
----
-
-## Training
-
-We provide an `accelerate_config.yaml` file for single-node multi-GPU/multi-node multi-GPU training. After modifying the `configs/config_mige.py` file, run the training script:
-
-```bash
-sh train_scripts/train_mige.sh
-```
-
-For convenience, we have uploaded all the models mentioned in the paper, including `bert-base-uncased`, `sd-vae-ft-ema`, `t5-v1_1-xxl`, `PixArt-XL-2-512x512`, `blip2_pretrained_flant5xxl`, `eva_vit_g`, along with the final MIGE model (`model.pth`), to [Hugging Face](https://huggingface.co/EurekaTian/MIGE).
+For convenience, we have uploaded all the models mentioned in the paper, including `bert-base-uncased`, `sd-vae-ft-ema`, `t5-v1_1-xxl`, `PixArt-XL-2-512x512`, `blip2_pretrained_flant5xxl`, `eva_vit_g`, along with the final MIGE model (`model.pth`), to [Hugging Face](https://huggingface.co/EurekaTian/MIGE). Download them and put in `output/pretrained_models`.
 
 ## Inference
 
