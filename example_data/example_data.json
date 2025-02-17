@@ -1,0 +1,38 @@
+[
+    {
+        "image": "example_data/subject.jpg",
+        "width": 1500,
+        "height": 830,
+        "entity_path": [
+            "example_data/sub_entity_0.jpg",
+            "example_data/sub_entity_1.jpg"
+        ],
+        "multi_prompt": "The image showcases a flavorful and visually appealing breakfast or brunch dish, featuring a poached<imagehere>are several<imagehere>spears, grilled or steamed to perfection and drizzled with a creamy sauce, either hollandaise or bechamel. The dish is artfully garnished with a sprinkle of red pepper flakes and a drizzle of olive oil or a similar condiment. In the background, a glass of milk or a beverage and a container, possibly holding salt or pepper, add to the detailed real-world presentation of this Smoked Beef Brisket Benedict.",
+        "source_path": []
+    },
+    { 
+        "image": "example_data/edit_target.jpg",
+        "width": 400,
+        "height": 533,
+        "entity_path": [
+            "example_data/edit_source.jpg"
+        ],
+        "multi_prompt": "Delete the person in the blue jacket from<imagehere>and then repair the green cloth stage background to center the small dog",
+        "source_path": [
+            "example_data/edit_source.jpg"
+        ]
+    },
+    {
+        "image": "example_data/replace_target.jpg",
+        "width": 512,
+        "height": 512,
+        "entity_path": [
+            "example_data/replace_source.jpg",
+            "example_data/replace_entity.jpg"
+        ],
+        "multi_prompt": "replace the plaid skirt in<imagehere>with<imagehere>",
+        "source_path": [
+            "example_data/replace_source.jpg"
+        ]
+    }
+]

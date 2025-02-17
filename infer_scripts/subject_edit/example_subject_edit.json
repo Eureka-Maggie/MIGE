@@ -1,0 +1,56 @@
+[
+    {
+        "image": "/path/to/MIGEBench/add/add_target/21_target.jpg",
+        "source_path": [
+            "/path/to/MIGEBench/add/add_source/21_source.jpg"
+        ],
+        "caption": "add a signboard in the bottom middle ",
+        "width": 1024,
+        "height": 1024,
+        "aesthetic": 5.908985137939453,
+        "object": "a signboard",
+        "multi_prompt": "Add<imagehere>to the bottom center of<imagehere>. The signboard is relatively small, slightly shorter than a bookshelf and is between the book carts.",
+        "target_caption": "The image depicts a narrow alleyway flanked by tall brick buildings. The alley is filled with book carts and shelves, suggesting it might be a book market or a place where books are sold. A signboard is in the middle.",
+        "clip_t": 0.2635669708251953,
+        "mask_path": [
+            "/path/to/MIGEBench/add/add_mask/21_mask.jpg"
+        ],
+        "entity_path": [
+            "/path/to/MIGEBench/add/add_entity/21_entity_black.jpg",
+            "/path/to/MIGEBench/add/add_source/21_source.jpg"
+        ],
+        "entity_dino": "a signboard",
+        "entity_path_white": [
+            "/path/to/MIGEBench/add/add_entity/21_entity_white.jpg"
+        ],
+        "idx": 21,
+        "crop": "0"
+    },
+    {
+        "image": "/path/to/MIGEBench/replace/replace_target/20_target.jpg",
+        "source_path": [
+            "/path/to/MIGEBench/replace/replace_source/20_source.jpg"
+        ],
+        "caption": "replace the pencil with pen in the center",
+        "width": 1024,
+        "height": 1024,
+        "aesthetic": 5.307318687438965,
+        "object": "pen",
+        "multi_prompt": "replace the pencil in<imagehere>with<imagehere>in the center",
+        "clip_t": 0.29248127341270447,
+        "mask_path": [
+            "/path/to/MIGEBench/replace/replace_mask/20_mask.jpg"
+        ],
+        "entity_path": [
+            "/path/to/MIGEBench/replace/replace_source/20_source.jpg",
+            "/path/to/MIGEBench/replace/replace_entity/20_entity_black.jpg"
+        ],
+        "entity_dino": "pen",
+        "target_caption": "The image shows a wooden desk with a smartphone displaying the Netflix logo on its screen. Next to the smartphone, there is a notepad and a pen. The pen is positioned vertically, with its blue and black design visible.",
+        "entity_path_white": [
+            "/path/to/MIGEBench/replace/replace_entity/20_entity_white.jpg"
+        ],
+        "idx": 20,
+        "crop": "0"
+    }
+]

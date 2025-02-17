@@ -1,0 +1,23 @@
+[
+    {
+        "entity_path": [
+            "infer_scripts/subject/entity_dog_0.jpg"
+        ],
+        "multi_prompt": "a<ImageHere>in the jungle",
+        "prompt": "a dog in the jungle"
+    },
+    {
+        "entity_path": [
+            "infer_scripts/subject/entity_dog2_0.jpg"
+        ],
+        "multi_prompt": "a<ImageHere>in the snow",
+        "prompt": "a dog in the snow"
+    },
+    {
+        "entity_path": [
+            "infer_scripts/subject/entity_dog3_0.jpg"
+        ],
+        "multi_prompt": "a<ImageHere>on the beach",
+        "prompt": "a dog on the beach"
+    }
+]
