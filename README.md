@@ -1,5 +1,6 @@
 # MIGE
 Implementation code of the paper **MIGE: A Unified Framework for Multimodal Instruction-Based Image Generation and Editing**
+![Demonstrating the comprehensive capabilities of MIGE.](showcases/show_new.jpg)
 
 ## Quick Start
 
@@ -108,9 +109,13 @@ The following benchmark files are available on [Hugging Face](https://huggingfac
     - `add_mask`
     - `add_source`
     - `add_target`
-
+![Subject addition examples in MIGEBench.](showcases/benchmark_add_case.jpg)
 - **Replace task**:
     - `replace_entity`
     - `replace_mask`
     - `replace_source`
     - `replace_target`
+![Subject replacement examples in MIGEBench.](showcases/benchmark_replace_case.jpg)
+
+## More Examples
+![Qualitative results of subject-driven image generation (top), instruction-based image editing (middle) and instruction-based subject-driven image editing (bottom)](showcases/fig.jpg)
