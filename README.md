@@ -30,7 +30,7 @@ We recommend using Python version 3.9.2 and setting up a virtual environment for
 
 If you encounter any of the following errors, you can install the required system libraries.
 
-#### Error: `ImportError: libGL.so.1: cannot open shared object file: No such file or directory`
+`ImportError: libGL.so.1: cannot open shared object file: No such file or directory`
 
 Solution:
 ```bash
@@ -39,7 +39,7 @@ sudo apt-get install -y libgl1-mesa-glx
 sudo apt-get install -y libglib2.0-0
 ```
 
-#### Error: `OSError: libcudart.so.11.0: cannot open shared object file: No such file or directory`
+`OSError: libcudart.so.11.0: cannot open shared object file: No such file or directory`
 
 Solution:
 ```bash
