@@ -1,5 +1,5 @@
-# MIGE: A Unified Framework for Multimodal Instruction-Based Image Generation and Editing
-Implementation code of the paper **[MIGE: A Unified Framework for Multimodal Instruction-Based Image Generation and Editing](https://arxiv.org/abs/2502.21291)**
+# MIGE: Mutually Enhanced Multimodal Instruction-Based Image Generation and Editing
+Implementation code of the paper **[MIGE: Mutually Enhanced Multimodal Instruction-Based Image Generation and Editing](https://arxiv.org/abs/2502.21291)**
 ![Demonstrating the comprehensive capabilities of MIGE.](showcases/show_new.jpg)
 
 ***
@@ -9,6 +9,14 @@ Implementation code of the paper **[MIGE: A Unified Framework for Multimodal Ins
 We’re thrilled to announce that our paper has been accepted to ACM International Conference on Multimedia 2025.
 See you in Ireland this October! 🇮🇪
 ***
+## ⚡ TL;DR
+MIGE is a unified framework for both subject-driven image generation and instruction-based image editing, bridging them via multimodal instructions and joint training.
+
+🚀 Mutual Enhancement: Treats generation and editing as complementary tasks, improving both through unified learning. **First to prove the mutual enhancement between the two tasks**.
+
+🧩 Compositional Power: Unlocks new capabilities like instruction-based subject-driven editing, a challenging and novel task.
+
+📊 Strong Results: Achieves state-of-the-art performance on multiple benchmarks (including the new proposed MIGEBench) with just 2.28M training samples.
 
 ## Quick Start
 
