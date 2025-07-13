@@ -2,6 +2,14 @@
 Implementation code of the paper **[MIGE: A Unified Framework for Multimodal Instruction-Based Image Generation and Editing](https://arxiv.org/abs/2502.21291)**
 ![Demonstrating the comprehensive capabilities of MIGE.](showcases/show_new.jpg)
 
+***
+## 📌 News
+[2507] 🎉 Our paper has been accepted to ACM MM 2025!
+
+We’re thrilled to announce that our paper has been accepted to ACM International Conference on Multimedia 2025.
+See you in Ireland this October! 🇮🇪
+***
+
 ## Quick Start
 
 ### 1. Set Up Python Environment
