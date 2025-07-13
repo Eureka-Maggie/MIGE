@@ -1,6 +1,6 @@
 # MIGE: A Unified Framework for Multimodal Instruction-Based Image Generation and Editing
 Implementation code of the paper **[MIGE: A Unified Framework for Multimodal Instruction-Based Image Generation and Editing](https://arxiv.org/abs/2502.21291)**
-![Demonstrating the comprehensive capabilities of MIGE.](showcases/show_new.jpg)
+![Demonstrating the comprehensive capabilities of MIGE.](showcases/show_new.png)
 
 ***
 ## 📌 News
